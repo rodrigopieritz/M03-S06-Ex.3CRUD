@@ -16,7 +16,7 @@ services: # criar serviços em container
     networks:
       - spring-postgres # rede interna do docker que esse service faz parte
     environment:
-      - POSTGRES_PASSWORD=root
+      - POSTGRES_PASSWORD=senai
       #       POSTGRES_PASSWORD: "root"
     expose:
       - 5432

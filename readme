@@ -4,3 +4,9 @@ Com o .env devidamente configurado:
 
 1º npm install
 2º npx sequelize-cli db:migrate
+
+docker build -t nome-da-sua-imagem:tag .
+
+docker login
+
+docker push nome-da-sua-imagem:tag
